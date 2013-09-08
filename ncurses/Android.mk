@@ -171,7 +171,7 @@ LOCAL_SHARED_LIBRARIES := libdl
 
 LOCAL_MODULE_TAGS := eng
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
 
 # ========================================================
 include $(call all-makefiles-under,$(LOCAL_PATH))
